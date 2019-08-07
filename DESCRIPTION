@@ -1,0 +1,18 @@
+Package: plearn
+Title: Automate PrairieLearn Operations
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "James",
+           family = "Balamuta",
+           role = c("aut", "cre"),
+           email = "balamut2@illinois.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    uuid,
+    usethis
+Suggests: 
+    covr
