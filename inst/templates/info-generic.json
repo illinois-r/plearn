@@ -1,0 +1,7 @@
+{
+    "uuid": "{{uuid}}",
+    "title": "{{title}}",
+    "topic": "{{topic}}",
+    "tags": [{{tags}}],
+    "type": "v3"
+}
