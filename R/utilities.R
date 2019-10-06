@@ -5,7 +5,7 @@ has_name = function(name) {
 # Harvested from usethis
 check_file_name <- function(name) {
   if (!valid_file_name(fs::path_ext_remove(name))) {
-    ui_stop(c(
+    usethis::ui_stop(c(
       "{ui_value(name)} is not a valid file name. It should:",
       "* Contain only ASCII letters, numbers, '-', and '_'."
     ))
