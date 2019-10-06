@@ -20,8 +20,3 @@ use_mc_fixed = function(name, title = NULL, topic = NULL, tags = NULL) {
   use_pl_question_info("info-generic.json", name, data = info_data)
   use_pl_question_html("question-mc-fixed.html", name)
 }
-
-make_tags = function(tags, author = getOption("plearn.author", "author-unknown")) {
-  unique(c(tags, author))
-}
-
