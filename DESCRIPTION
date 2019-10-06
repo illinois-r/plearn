@@ -15,7 +15,8 @@ Imports:
     uuid,
     usethis,
     fs,
-    glue
+    glue,
+    jsonlite
 Suggests: 
     covr
 Roxygen: list(markdown = TRUE)
