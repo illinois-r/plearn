@@ -1,11 +1,12 @@
-#' Create a Multiple Choice Question with a Fixed Number of Responses
+#' Create a Multiple Selection Question with a Fixed Number of Responses
 #' 
-#' Establishes a multiple choice question with a fixed amount of responses.
+#' Establishes a multiple selection question that allows for one or more 
+#' responses to be selected.
 #' 
 #' @template info-json-params
 #' 
 #' @export
-use_mc_fixed = function(name, title = NULL, topic = NULL, tags = NULL) {
+use_ms_fixed = function(name, title = NULL, topic = NULL, tags = NULL) {
   has_name(name)
   
   name <- glue::glue("ms_fixed_{tolower(name)}")
