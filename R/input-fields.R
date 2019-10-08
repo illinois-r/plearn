@@ -86,16 +86,16 @@ use_input_integer = function(name, title = NULL, topic = NULL, tags = NULL) {
 use_input_number = function(name, title = NULL, topic = NULL, tags = NULL) {
   has_name(name)
   
-  name <- glue::glue("numeric_{tolower(name)}")
+  name <- glue::glue("number_{tolower(name)}")
   check_file_name(name)
   
   info_data = list(
     title = title,
     topic = topic,
-    tags = make_tags(c("numeric", "v3", tags))
+    tags = make_tags(c("number", "v3", tags))
   )
   
   use_pl_question_info("info-generic.json", name, data = info_data)
-  use_pl_question_html("question-input-numeric.html", name)
-  use_pl_server_py("server-numeric.py", name)
+  use_pl_question_html("question-input-number.html", name)
+  use_pl_server_py("server-number.py", name)
 }
