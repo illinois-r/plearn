@@ -1,0 +1,12 @@
+{
+    "uuid": "{{uuid}}",
+    "name": "{{course_code}}",
+    "title": "{{course_title}}",
+    "topics": [
+        {"name": "unknown", "color": "red3", "description": "Topic was not specified."}
+    ],
+    "tags": [
+        {"name": "unknown", "color": "red3", "description": "Question author is unknown (check commit log)."},
+        {"name": "rstats", "color": "blue2", "description": "Question requires the use of R"}
+    ]
+}
