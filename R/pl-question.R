@@ -9,7 +9,7 @@ use_pl_question_info <- function(template, name, data = list(), open = TRUE) {
   
   save_as <- proj_path("questions", name, "info.json")
   
-  info_json_contents <- jsonlite::toJSON(data, pretty = TRUE)
+  info_json_contents <- jsonlite::toJSON(data, pretty = TRUE, auto_unbox = TRUE)
   new <- usethis::write_over(save_as, info_json_contents)
   
   if (open && new) {
