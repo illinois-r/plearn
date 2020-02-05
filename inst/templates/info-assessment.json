@@ -1,0 +1,15 @@
+{
+  "uuid": "{{uuid}}",
+  "shortName": "{{semester_code_short}}",
+  "longName": "{{semester_code_long}}",
+  "userRoles": {
+    "unknown_netid_1@illinois.edu": "Instructor",
+    "unknown_netid_2@illinois.edu": "TA"
+  },
+  "allowAccess": [
+    {
+      "startDate": "{{semester_start}}",
+      "endDate": "{{semester_end}}"
+    }
+  ]
+}

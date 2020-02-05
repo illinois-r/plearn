@@ -6,10 +6,11 @@
 \alias{plearn-package}
 \title{plearn: Automate PrairieLearn Operations}
 \description{
-What the package does (one paragraph).
+Provides question templates in a convenient form for deploying
+    to PrairieLearn
 }
 \author{
-\strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu} (YOUR-ORCID-ID)
+\strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu} (0000-0003-2826-8458)
 
 }
 \keyword{internal}
